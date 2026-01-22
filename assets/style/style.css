@@ -54,3 +54,40 @@ ul a {
 ul a:hover {
     color: var(--brand-blue);
 }
+
+.banner {
+    background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / 0.2), rgb(from var(--brand-green) r g b / 0.2));
+    display: flex;
+    height: 300px;
+    width: 90vw;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* border: 4px solid red; */
+}
+
+.banner h1 {
+    color: var(--text-primary);
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.banner p {
+    color: var(--text-primary);
+    padding-top: 0;
+    font-weight: 300;
+}
+
+.banner a {
+    background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / .4), rgb(from var(--brand-green) r g b / .4));
+    color: var(--text-primary);
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
