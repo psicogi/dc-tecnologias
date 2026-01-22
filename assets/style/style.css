@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-blue: #009FE3;
+    --brand-green: #00B359;
+    --brand-black: #080808;
+
+    --bg-color: #0b0d10;
+    --card-bg: #151922;
+
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0a0;
+}
