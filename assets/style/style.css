@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 40px;
+    margin: 0 100px;
 }
 
 img {
@@ -42,7 +42,6 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
-
 }
 
 ul a {
