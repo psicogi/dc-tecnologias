@@ -58,7 +58,7 @@ ul a:hover {
     background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / 0.2), rgb(from var(--brand-green) r g b / 0.2));
     display: flex;
     height: 300px;
-    width: 90vw;
+    width: 96vw;
     margin: 30px auto;
     padding: 20px;
     gap: 20px;
