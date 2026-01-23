@@ -121,7 +121,7 @@ ul a:hover {
 
 .services-container {
     display: grid;
-    grid-template: 40px 1fr / repeat(4, 230px);
+    grid-template: 40px 1fr / repeat(4, 20vw);
     justify-content: center;
     gap: 0 20px;
 }
@@ -137,8 +137,6 @@ ul a:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-
-
 }
 
 .services-container h2, h3 {
@@ -152,6 +150,7 @@ ul a:hover {
 
 .services-container p {
     color: var(--text-secondary);
+    padding: 5px 0 20px;
     grid-column: 2 / 4;
     text-align: center;
 }
