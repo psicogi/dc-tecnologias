@@ -1,2 +1,2 @@
 # dc-tecnologias
-landing page para DC
+Projeto destinado à divulgação da DC tecnologias
