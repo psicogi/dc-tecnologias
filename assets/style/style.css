@@ -55,7 +55,7 @@ ul a:hover {
 }
 
 .banner {
-    background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / 0.2), rgb(from var(--brand-green) r g b / 0.2));
+    background: linear-gradient(135deg, rgb(from var(--brand-blue) r g b / .4), rgb(from var(--brand-green) r g b / .4));
     display: flex;
     height: 300px;
     width: 96vw;
@@ -84,10 +84,38 @@ ul a:hover {
 }
 
 .banner a {
-    background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / .4), rgb(from var(--brand-green) r g b / .4));
+    background: linear-gradient(to right, rgb(from var(--brand-blue) r g b / .9), rgb(from var(--brand-green) r g b / .9));
     color: var(--text-primary);
     font-weight: 500;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease
+}
+
+.banner a::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, var(--brand-blue), var(--brand-green));
+    border-radius: inherit;
+
+
+    opacity: 0;
+    transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.banner a:hover {
+    transform: scale (1.05);
+
+    box-shadow: 0px 0px 15px var(--brand-green);
+}
+
+.banner a:hover::before {
+    opacity: 1;
+    filter: blur(15px); 
 }
