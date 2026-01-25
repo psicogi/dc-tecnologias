@@ -25,16 +25,22 @@ body {
 }
 
 header {
-    height: 50px;
+    height: 70px;
     display: flex;
+    background: var(--brand-black);
+    position: sticky;
+    top: 0;
+    z-index: 2;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
+    padding: 0 50px;
 }
 
 img {
-    height: 100%;
-    margin-top: 15px;
+    display: block;
+    height: 60%;
+    width: auto;
+    margin-top: 0;
 }
 
 ul {
@@ -187,6 +193,10 @@ ul a:hover {
 
 
 @media (max-width: 768px) {
+
+    header {
+        padding: 0 20px;
+    }
 
     .banner {
         width: 90vw;
