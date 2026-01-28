@@ -8,7 +8,7 @@
 
 ## 📄 Sobre o Projeto
 
-Este projeto é uma **Landing Page Responsiva** desenvolvida para a empresa **DC Tecnologia**. O objetivo foi criar uma presença digital moderna, com tema escuro (Dark Mode), destacando os serviços de infraestrutura de TI, suporte e consultoria.
+Este projeto é uma **Landing Page Responsiva** desenvolvida para a empresa **DC Tecnologias**. O objetivo foi criar uma presença digital moderna, com tema escuro (Dark Mode), destacando os serviços de infraestrutura de TI, suporte e consultoria.
 
 O projeto foi construído com foco em **Mobile First**, garantindo uma experiência fluida em celulares e desktops.
 
