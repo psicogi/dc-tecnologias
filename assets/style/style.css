@@ -218,7 +218,6 @@ ul a:hover {
     color: var(--text-secondary);
     font-size: 1.1rem;
     line-height: 1.6;
-    /* text-align: justify; */
 }
 
 .quemsomos-container span {
@@ -235,6 +234,55 @@ ul a:hover {
 span a:hover {
     color: var(--brand-blue);
 }
+
+.contato-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 10px;
+    padding: 40px;
+    margin-top: 30px;
+    color: var(--text-primary);
+}
+
+.contato-container p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.contato-item h3 {
+    grid-column: 1 / -1;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.contato-item i {
+    font-size: 1.7rem;
+
+    background: linear-gradient(135deg, var(--brand-blue), var(--brand-green));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.contato-item a {
+    text-decoration: none;
+}
+
+hr {
+    height: 1px;
+    width: 95vw;
+    background: var(--text-secondary);
+    margin: 20px auto;
+    border: 0;
+}
+
+footer {
+    color: var(--text-secondary);
+    padding: 20px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -289,5 +337,9 @@ span a:hover {
         font-size: 1rem;
         line-height: 1.5;
         text-align: justify;
+    }
+
+    .contato-container {
+        grid-template-columns: 1fr;
     }
 }
