@@ -16,6 +16,7 @@ O projeto foi construído com foco em **Mobile First**, garantindo uma experiên
 
 * **Design Responsivo:** Layout adaptável para dispositivos móveis (Mobile) e Computadores (Desktop).
 * **Grid & Flexbox:** Uso avançado de CSS Grid e Flexbox para alinhamento de cards e seções.
+* **Header Fixo:** Navegação sempre visível no topo.
 * **Botão de WhatsApp:** Link direto com mensagem personalizada para solicitação de orçamentos.
 * **Ícones:** Integração com a biblioteca *Phosphor Icons*.
 * **Seções:**
@@ -29,7 +30,7 @@ O projeto foi construído com foco em **Mobile First**, garantindo uma experiên
 
 * **HTML5:** Estrutura semântica.
 * **CSS3:** Estilização, Variáveis (:root), Media Queries e Animações.
-* **JavaScript:** Lógica de manipulação do DOM para o menu mobile.
+* **JavaScript:** Implementação do comportamento de rolagem suave (Smooth Scroll).
 * **Phosphor Icons:** Biblioteca de ícones vetoriais.
 
 ## 👩‍💻 Autora
