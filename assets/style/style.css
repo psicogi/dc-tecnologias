@@ -247,7 +247,6 @@ span a:hover {
 .contato-container p {
     color: var(--text-secondary);
     font-size: 1rem;
-    margin-left: 10px;
 }
 
 .contato-item h3 {
