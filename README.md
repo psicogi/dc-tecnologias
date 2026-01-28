@@ -15,7 +15,6 @@ O projeto foi construído com foco em **Mobile First**, garantindo uma experiên
 ## ✨ Funcionalidades
 
 * **Design Responsivo:** Layout adaptável para dispositivos móveis (Mobile) e Computadores (Desktop).
-* **Menu Interativo:** Menu "hambúrguer" funcional desenvolvido com JavaScript puro.
 * **Grid & Flexbox:** Uso avançado de CSS Grid e Flexbox para alinhamento de cards e seções.
 * **Botão de WhatsApp:** Link direto com mensagem personalizada para solicitação de orçamentos.
 * **Ícones:** Integração com a biblioteca *Phosphor Icons*.
