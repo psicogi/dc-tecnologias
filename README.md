@@ -1,4 +1,4 @@
-# 💻 DC Tecnologia - Landing Page Institucional
+#  DC Tecnologia - Landing Page Institucional
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 ![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
